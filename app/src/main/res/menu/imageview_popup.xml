@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setIdImage"
+        android:title="Show ID"/>
+
+    <item
+        android:id="@+id/setImage"
+        android:title="Set Image"/>
+    <item
+        android:id="@+id/ImageViewDragOn"
+        android:title="Drag On"/>
+    <item
+        android:id="@+id/ImageViewDragOff"
+        android:title="Drag Off"/>
+    <item
+        android:id="@+id/removeImageView"
+        android:title="Remove"/>
+</menu>

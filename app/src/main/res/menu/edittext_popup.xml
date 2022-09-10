@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setIdEditText"
+        android:title="Show ID"/>
+
+    <item
+        android:id="@+id/setEditTextHint"
+        android:title="Set Hint"/>
+    <item
+        android:id="@+id/setEditTextColor"
+        android:title="Set Text Color"/>
+    <item
+        android:id="@+id/setEditHintColor"
+        android:title="Set Hint Color"/>
+    <item
+        android:id="@+id/setInputType"
+        android:title="Set Input Type"/>
+    <item
+        android:id="@+id/EditTextDragOn"
+        android:title="Drag On"/>
+    <item
+        android:id="@+id/EditTextDragOff"
+        android:title="Drag Off"/>
+    <item
+        android:id="@+id/removeEditText"
+        android:title="Remove"/>
+</menu>

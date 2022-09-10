@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+<RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg1"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 1"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg2"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 2"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg3"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 3"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg4"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 4"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg5"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 5"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg6"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 6"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bg7"
+            android:layout_margin="15dp"
+            />
+        <RadioButton
+            android:id="@+id/imageBackground7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Background 7"
+            android:textColor="#FF0000"
+            android:layout_margin="10dp"
+            />
+</RadioGroup>
+    </LinearLayout>
+
+</ScrollView>

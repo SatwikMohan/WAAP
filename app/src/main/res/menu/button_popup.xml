@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setIdButton"
+        android:title="Show ID"/>
+
+    <item
+        android:id="@+id/setText"
+        android:title="Set Text"/>
+    <item
+        android:id="@+id/setColor"
+        android:title="Set Button Color"/>
+    <item
+        android:id="@+id/buttonDragOn"
+        android:title="Drag On"/>
+    <item
+        android:id="@+id/buttonDragOff"
+        android:title="Set On Click Listener"/>
+    <item
+        android:id="@+id/removeButton"
+        android:title="Remove"/>
+
+</menu>

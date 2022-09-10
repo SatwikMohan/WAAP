@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".WorkSpace">
+
+    <Button
+        android:id="@+id/ShowToolBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="7dp"
+        android:text="Show ToolBar"
+        app:backgroundTint="#00B8D4" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/moreOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#C264F1"
+        android:src="@android:drawable/ic_menu_preferences" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/drawOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/moreOptions"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/Annotation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="7dp"
+        android:layout_alignParentRight="true"
+        android:text="Annotation : ON"
+        app:backgroundTint="#00B8D4" />
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="7sp"
+            android:outlineAmbientShadowColor="@color/black"
+            android:outlineSpotShadowColor="@color/black"
+            android:visibility="gone"
+            android:background="#AEEA00"
+            android:id="@+id/ToolMenu"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/ToolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tool Bar:"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/toolSlide"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ToolBar"
+                    android:layout_margin="3dp"
+                    android:orientation="horizontal" />
+                <Button
+                    app:backgroundTint="#FFAB00"
+                    android:layout_margin="10dp"
+                    android:id="@+id/CreateAPK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create APK"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/toolSlide"
+                    />
+
+                <Button
+                    android:id="@+id/HideToolBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/toolSlide"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Hide ToolBar"
+                    app:backgroundTint="#00B8D4" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ShowToolBar"
+        android:layout_below="@+id/ToolMenu"
+        android:orientation="vertical">
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

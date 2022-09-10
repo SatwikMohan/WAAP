@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setBackgroundColor"
+        android:title="Set Background Color"/>
+
+    <item
+        android:id="@+id/setBackgroundImage"
+        android:title="Set Background Image"/>
+
+    <item
+        android:id="@+id/drawFreeHand"
+        android:title="Draw On Screen"
+        android:icon="@android:drawable/ic_menu_edit"/>
+
+    <item
+        android:id="@+id/theEncryptor"
+        android:title="Encryptor"/>
+
+    <item
+        android:id="@+id/theSorter"
+        android:title="Sorter"/>
+
+    <item
+        android:id="@+id/ImageToText"
+        android:title="Extract Text From Image"/>
+
+</menu>
